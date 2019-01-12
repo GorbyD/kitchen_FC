@@ -1,0 +1,47 @@
+include ../utils/mixins
+block variables
+
+doctype html
+html(lang="ru-RU")
+	head
+		meta(charset="utf-8")
+
+		//- Titles
+		title #{title}
+		meta(name="keywords" content="")
+		meta(name="description" content="")
+
+		//- Адаптивная верстка
+		<!--[if IE]>
+		meta(http-equiv='X-UA-Compatible', content="IE = edge")
+		<![endif]-->
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+
+		//- Fonts
+		
+		//- Styles
+		link(rel="stylesheet" type='text/css' href="static/css/main.css")
+
+		//- Vendor Styles
+
+		//- FavIcons
+		//- link(rel="icon" href="images/favicons/favicon-16.png" type="image/x-icon")
+		//- link(rel="shortcut icon" href="images/favicons/favicon-64.png" type="image/x-icon")
+		//- link(rel="apple-touch-icon" href="images/favicons/favicon-256.png")
+
+		<!--[if lt IE 9]>
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js")
+		<![endif]-->
+	
+	body(class=pageClass)
+		.wrapper
+			include ../modules/header/header
+			.content
+				block content
+			include ../modules/footer/footer
+		
+		//- Scripts
+		script(src="static/js/jquery-3.3.1.min.js")
+		script(src="static/js/libs.min.js")
+		script(src="static/js/main.js")
+		block script

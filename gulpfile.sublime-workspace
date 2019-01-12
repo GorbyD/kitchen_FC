@@ -1,0 +1,424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fea",
+				"features__icon"
+			],
+			[
+				"owl",
+				"owl-carousel"
+			],
+			[
+				"produc",
+				"product1"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"b",
+				"bool2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 232.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Downloads/Start_Template/less/main.less",
+		"/D/Downloads/Start_Template/css/utils.css",
+		"/D/Downloads/Start_Template/less/base/_utils.less",
+		"/C/Users/Denis/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Denis/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/Denis/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/Denis/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/D/main.less",
+		"/D/ReservOS/Тестовое задание - верстка/test-case/less/blocks/_navigation.less",
+		"/D/ReservOS/Тестовое задание - верстка/test-case/index.html",
+		"/D/ReservOS/Тестовое задание - верстка/test-case/js/main.js",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/63_Проект - Портфолио - Финал (Форма ajax, php отправка формы)/index.html",
+		"/D/ReservOS/Тестовое задание - верстка/test-case/less/blocks/_cources.less",
+		"/D/ReservOS/Тестовое задание - верстка/test-case/less/blocks/_sorting.less",
+		"/D/ReservOS/Тестовое задание - верстка/test-case/less/blocks/_article-slider.less",
+		"/D/ReservOS/diplom_project/less/sections/_header.less",
+		"/D/ReservOS/diplom_project/index.html",
+		"/D/ReservOS/diplom_project/less/general/_typo.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/63_Проект - Портфолио - Финал (Форма ajax, php отправка формы)/less/sections/_header.less",
+		"/D/ReservOS/diplom_project/less/blocks/_footer-instagram.less",
+		"/D/ReservOS/diplom_project/less/blocks/_footer-form.less",
+		"/D/ReservOS/diplom_project/less/blocks/_footer-contact.less",
+		"/D/ReservOS/diplom_project/less/blocks/_footer-links.less",
+		"/D/ReservOS/diplom_project/less/sections/_footer.less",
+		"/D/ReservOS/diplom_project/less/sections/_portfolio.less",
+		"/D/ReservOS/diplom_project/less/blocks/_services.less",
+		"/D/ReservOS/diplom_project/less/sections/_features.less",
+		"/D/ReservOS/diplom_project/less/blocks/_social-icons.less",
+		"/D/ReservOS/diplom_project/less/blocks/_testimonials.less",
+		"/D/ReservOS/diplom_project/less/base/_base.less",
+		"/D/ReservOS/diplom_project/less/blocks/_logo-title.less",
+		"/D/ReservOS/diplom_project/less/sections/_banner.less",
+		"/D/ReservOS/diplom_project/js/main.js",
+		"/D/ReservOS/diplom_project/less/main.less",
+		"/D/ReservOS/diplom_project/less/base/_variables.less",
+		"/D/ReservOS/diplom_project/fonts/font-awesome-4.7.0/css/variables.css",
+		"/D/ReservOS/diplom_project/less/blocks/_logoset-text.less",
+		"/D/ReservOS/diplom_project/less/blocks/_about.less",
+		"/D/ReservOS/diplom_project/less/blocks/_logoset-photo-bottom.less",
+		"/D/ReservOS/diplom_project/img/icons/stats.svg",
+		"/D/ReservOS/diplom_project/img/icons/smartphone.svg",
+		"/D/ReservOS/diplom_project/img/icons/browser.svg",
+		"/D/ReservOS/diplom_project/less/blocks/_filterblock.less",
+		"/D/ReservOS/diplom_project/less/blocks/_video-block.less",
+		"/D/ReservOS/Пример верстки верхнего слайдера с абсолютными элементами внутри/js/main.js",
+		"/D/ReservOS/diplom_project/less/blocks/_banner-slider.less",
+		"/D/ReservOS/Пример верстки верхнего слайдера с абсолютными элементами внутри/index.html",
+		"/D/ReservOS/Пример верстки верхнего слайдера с абсолютными элементами внутри/css/main.css",
+		"/D/ReservOS/logo-set-addon/less/blocks/_footer-links.less",
+		"/D/ReservOS/logo-set-addon/less/sections/_footer.less",
+		"/D/ReservOS/logo-set-addon/index.html",
+		"/D/ReservOS/logo-set-addon/less/main.less",
+		"/D/ReservOS/logo-set-addon/libs/bootstrap/css/bootstrap-xlgrid.css",
+		"/D/ReservOS/logo-set-addon/less/base/_utils.less",
+		"/D/ReservOS/logo-set-addon/libs/bootstrap/css/bootstrap-xlgrid.min.css",
+		"/D/ReservOS/logo-set-addon/less/blocks/_about.less",
+		"/D/ReservOS/logo-set-addon/less/blocks/_services.less",
+		"/D/ReservOS/logo-set-addon/less/blocks/_logoset-photo-bottom.less",
+		"/D/ReservOS/logo-set-addon/less/blocks/_logoset-text.less",
+		"/D/ReservOS/logo-set-addon/less/base/_base.less",
+		"/D/ReservOS/diplom_project/img/icons/about-slider-up.svg",
+		"/D/ReservOS/diplom_project/img/icons/about-slider-down.svg",
+		"/D/ReservOS/diplom_project/less/blocks/_nav-button.less",
+		"/D/ReservOS/diplom_project/fonts/gothampro/stylesheet.css",
+		"/D/ReservOS/diplom_project/css/main.css",
+		"/D/ReservOS/diplom_project/css/utils.css",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/62_Проект - Портфолио (Валидация формы)/less/blocks/_contact-form.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/57_Проект - Портфолио (Секция - Мои работы, верстка работ в портфолио - статика)/index.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/57_Проект - Портфолио (Секция - Мои работы, верстка работ в портфолио - статика)/less/blocks/_portfolio-item.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/57_Проект - Портфолио (Секция - Мои работы, верстка работ в портфолио - статика)/less/main.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/46_jQuery/03.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/46_jQuery/js/main.js",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/46_jQuery/css/main.css",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/46_jQuery/02.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/46_jQuery/01.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/46_jQuery/00.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/46_jQuery/libs/00.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/44_Проект - Аполло (Финал)/less/sections/_navigation.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/44_Проект - Аполло (Финал)/js/main.js",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/44_Проект - Аполло (Финал)/index.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/44_Проект - Аполло (Финал)/less/sections/_logo.less",
+		"/C/projects/git-01/css/main.css",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/40_Проект - Аполло (Блок - Как мы работаем)/less/sections/_benefits.less",
+		"/C/projects/git-01/index.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/38_Проект - Аполло (Навигация)/js/main.js",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/38_Проект - Аполло (Навигация)/less/sections/_navigation.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/38_Проект - Аполло (Навигация)/index.html",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/38_Проект - Аполло (Навигация)/less/sections/_logo.less",
+		"/C/projects/yarntest/package.json",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/33_CSS препроцессор LESS/CODE/03 - less-structure/less/_buttons.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/33_CSS препроцессор LESS/CODE/03 - less-structure/css/main.css",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/33_CSS препроцессор LESS/CODE/03 - less-structure/less/_mixins.less",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/33_CSS препроцессор LESS/05_Структура проекта/css/main.css",
+		"/C/Users/Denis/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Z/Downloads/For NetPC/Webcademy/!Course/33_CSS препроцессор LESS/less/main.less",
+		"/C/projects/npmtestproject/package.json",
+		"/C/projects/npmtestproject/app/css/main.css",
+		"/C/projects/npmtestproject/app/index.html",
+		"/C/Users/user02/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/user02/AppData/Roaming/Sublime Text 3/Installed Packages/Package Control.sublime-package",
+		"/C/Users/user02/AppData/Roaming/Sublime Text 3/Installed Packages/0_package_control_loader.sublime-package",
+		"/C/Users/user02/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/user02/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/user02/Desktop/TecDoc/site-portfolio/index.html",
+		"/C/Users/user02/Desktop/TecDoc/Книги/PHP/Мориссон.М-Изучаем PHP и MySQL(Мировой компьютерный бестселлер)-2010 + CODE/source code/examples/ch01/final/aliens/report.php",
+		"/C/OpenServer/OSPanel/domains/study/index.php",
+		"/C/Users/user02/Desktop/TecDoc/R_pult_v_3_3/_R_direct_RuNET/_R_direct_RuNET.ino",
+		"/C/Users/user02/Desktop/TecDoc/R_pult_v_3_3/R_pult_v_3_3/R_pult_v_3_3.ino",
+		"/C/openserver/OSPanel/domains/study/index.php",
+		"/C/OpenServer/OSPanel/domains/study/test2.php",
+		"/C/OpenServer/OSPanel/domains/study/test1.php",
+		"/C/OpenServer/OSPanel/domains/Project/css/style.css",
+		"/C/openserver/OSPanel/domains/Project/index.php",
+		"/C/OpenServer/OSPanel/domains/php-lessons/index.php",
+		"/C/openserver/ospanel/domains/Project/head.html",
+		"/C/openserver/ospanel/domains/Project/footer.html",
+		"/C/OpenServer/OSPanel/domains/Project/index.php",
+		"/C/OpenServer/OSPanel/domains/study/check.php",
+		"/C/OpenServer/OSPanel/domains/study/footer.php",
+		"/C/OpenServer/OSPanel/domains/study/header.php",
+		"/C/OpenServer/OSPanel/domains/study/page.php",
+		"/C/OpenServer/OSPanel/domains/study/www/index.php",
+		"/C/OpenServer/OSPanel/domains/php-lessons/.htaccess",
+		"/C/openserver/OSPanel/domains/php-lessons/index.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 86.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gulpfile.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"nav",
+				"test-case\\less\\blocks\\_navigation.less"
+			],
+			[
+				"sor",
+				"test-case\\less\\blocks\\_sorting.less"
+			],
+			[
+				"art",
+				"test-case\\less\\blocks\\_article-slider.less"
+			],
+			[
+				"hea",
+				"diplom_project\\less\\sections\\_header.less"
+			],
+			[
+				"typo",
+				"diplom_project\\less\\general\\_typo.less"
+			],
+			[
+				"head",
+				"63_Проект - Портфолио - Финал (Форма ajax, php отправка формы)\\less\\sections\\_header.less"
+			],
+			[
+				"footer",
+				"diplom_project\\less\\blocks\\_footer-instagram.less"
+			],
+			[
+				"port",
+				"diplom_project\\less\\sections\\_portfolio.less"
+			],
+			[
+				"serv",
+				"diplom_project\\less\\blocks\\_services.less"
+			],
+			[
+				"portfo",
+				"diplom_project\\less\\sections\\_portfolio.less"
+			],
+			[
+				"feat",
+				"diplom_project\\less\\sections\\_features.less"
+			],
+			[
+				"test",
+				"diplom_project\\less\\blocks\\_testimonials.less"
+			],
+			[
+				"base",
+				"diplom_project\\less\\base\\_base.less"
+			],
+			[
+				"banner",
+				"diplom_project\\less\\sections\\_banner.less"
+			],
+			[
+				"va",
+				"diplom_project\\less\\base\\_variables.less"
+			],
+			[
+				"about",
+				"diplom_project\\less\\blocks\\_about.less"
+			],
+			[
+				"logos",
+				"diplom_project\\less\\blocks\\_logoset-text.less"
+			],
+			[
+				"fea",
+				"diplom_project\\less\\sections\\_features.less"
+			],
+			[
+				"filter",
+				"diplom_project\\less\\blocks\\_filterblock.less"
+			],
+			[
+				"conta",
+				"diplom_project\\less\\blocks\\_footer-contact.less"
+			],
+			[
+				"vide",
+				"diplom_project\\less\\blocks\\_video-block.less"
+			],
+			[
+				"abou",
+				"diplom_project\\less\\blocks\\_about.less"
+			],
+			[
+				"boots",
+				"logo-set-addon\\libs\\bootstrap\\css\\bootstrap-xlgrid.css"
+			],
+			[
+				"slider",
+				"diplom_project\\less\\blocks\\_banner-slider.less"
+			],
+			[
+				"gota",
+				"fonts\\gothampro\\stylesheet.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
