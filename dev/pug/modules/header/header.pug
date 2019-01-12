@@ -11,14 +11,23 @@ header.header
                 a(href="").header-nav__link Адреса салонов
         ul.header-nav__list
             li.header-nav__item
-                +icon()
+                +icon('basket','header-nav__item-icon')
                 a(href="").header-nav__link Как заказать
             li.header-nav__item
-                +icon()
+                +icon('payment','header-nav__item-icon')
                 a(href="").header-nav__link Оплата
             li.header-nav__item
-                +icon()
+                +icon('delivery','header-nav__item-icon')
                 a(href="").header-nav__link Доставка
-
         ul.header-nav__list
+            li.header-nav__item
+                +icon('location','header-nav__item-icon')
+                a(href="").header-nav__link Санкт-Петербург
+            li.header-nav__item
+                +icon('login','header-nav__item-icon')
+                a(href="").header-nav__link Войти
+            li.header-nav__item
+                +icon('register','header-nav__item-icon')
+                a(href="").header-nav__link Зарегистрироваться
+
 

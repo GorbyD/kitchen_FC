@@ -1,5 +1,28 @@
 header {
   background-color: @black;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header {
+  &__phone {
+    color: @white;
+  }
+  &-nav {
+    &__item {
+      &-icon {
+        fill: @white;
+        width: 17px;
+        height: 17px;
+      }
+    }
+    &__link {
+      color: @white;
+    }
+  }
 }
 
 .icon-logo {
