@@ -4,6 +4,7 @@ $(document).ready(function (){
         prevArrow: '.index-slider__controls--prev',
         nextArrow: '.index-slider__controls--next',
         dots: true,
+        vertical: true,
         customPaging: function() {
           return '<a class="index-slider__dots"></a>';
         },
