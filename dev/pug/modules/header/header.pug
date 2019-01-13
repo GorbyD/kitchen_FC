@@ -1,33 +1,54 @@
 header.header
-    .container
-        .logo.header-logo
-            +icon('logo')
-        ul.header-nav__list
-            li.header-nav__item
-                a(href="tel:").header__phone 8 800 800-80-80
-            li.header-nav__item
-                a(href="").header-nav__link Обратный звонок
-            li.header-nav__item
-                a(href="").header-nav__link Адреса салонов
-        ul.header-nav__list
-            li.header-nav__item
-                +icon('basket','header-nav__item-icon')
-                a(href="").header-nav__link Как заказать
-            li.header-nav__item
-                +icon('payment','header-nav__item-icon')
-                a(href="").header-nav__link Оплата
-            li.header-nav__item
-                +icon('delivery','header-nav__item-icon')
-                a(href="").header-nav__link Доставка
-        ul.header-nav__list
-            li.header-nav__item
-                +icon('location','header-nav__item-icon')
-                a(href="").header-nav__link Санкт-Петербург
-            li.header-nav__item
-                +icon('login','header-nav__item-icon')
-                a(href="").header-nav__link Войти
-            li.header-nav__item
-                +icon('register','header-nav__item-icon')
-                a(href="").header-nav__link Зарегистрироваться
+    .header-top
+        .container
+            .logo.header-logo
+                +icon('logo')
+            .header-nav
+                ul.header-nav__list
+                    li.header-nav__item
+                        a(href="tel:").header__phone 8 800 800-80-80
+                    li.header-nav__item
+                        a(href="").header-nav__link.header-nav__link--dotted Обратный звонок
+                    li.header-nav__item
+                        a(href="").header-nav__link Адреса салонов
+                ul.header-nav__list
+                    li.header-nav__item
+                        +icon('basket','header-nav__item-icon')
+                        a(href="").header-nav__link Как заказать
+                    li.header-nav__item
+                        +icon('payment','header-nav__item-icon')
+                        a(href="").header-nav__link Оплата
+                    li.header-nav__item
+                        +icon('delivery','header-nav__item-icon')
+                        a(href="").header-nav__link Доставка
+                ul.header-nav__list
+                    li.header-nav__item
+                        +icon('location','header-nav__item-icon')
+                        a(href="").header-nav__link.header-nav__link--dotted Санкт-Петербург
+                    li.header-nav__item
+                        +icon('login','header-nav__item-icon')
+                        a(href="").header-nav__link.header-nav__link--dotted Войти
+                    li.header-nav__item
+                        +icon('register','header-nav__item-icon')
+                        a(href="").header-nav__link Зарегистрироваться
+                ul.header-nav__list.header-nav__user
+                    li.header-nav__user-item
+                        .header-nav__user-icon
+                            +icon('comparison','header-nav__item-icon')
+                            span.header-nav__user-count 17
+                        a(href="").header-nav__link.header-nav__link--user Сравнение
+                    li.header-nav__user-item
+                        .header-nav__user-icon
+                            +icon('favorites','header-nav__item-icon')
+                            span.header-nav__user-count 4
+                        a(href="").header-nav__link.header-nav__link--user Избранное
+                    li.header-nav__user-item
+                        .header-nav__user-icon
+                            +icon('basket','header-nav__item-icon')
+                            span.header-nav__user-count 23
+                        a(href="").header-nav__link.header-nav__link--user Корзина
+    .header-bottom
+        .container
+            include ../menu/menu
 
 
