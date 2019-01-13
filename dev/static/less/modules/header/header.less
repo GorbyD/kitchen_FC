@@ -1,10 +1,15 @@
-header {
-  background-color: @black;
-
-
+.index-page {
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
 }
 
 .header {
+  background-color: transparent;
   &-top {
     .container {
       display: flex;

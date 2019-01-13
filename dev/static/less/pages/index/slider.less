@@ -1,0 +1,120 @@
+.index-slider {
+  max-height: 800px;
+  &__img {
+    width: 100%;
+    max-height: 800px;
+  }
+  &__dots {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid @white;
+    border-radius: 50%;
+  }
+  &__content {
+    width: 100%;
+    max-width: 900px;
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  &__title {
+    display: block;
+    color: @white;
+    font-size: 72px;
+    line-height: 1.2;
+    font-family: @medium-font;
+    margin-bottom: 50px;
+  }
+  &__item {
+    position: relative;
+  }
+  .slick {
+    &-dots {
+      position: absolute;
+      bottom: 300px;
+      li {
+        margin-bottom: 10px;
+        cursor: pointer;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &-active {
+      .index-slider__dots {
+        background-color: @white;
+      }
+    }
+  }
+  &>.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  &__controls {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background-color: @white;
+    cursor: pointer;
+    z-index: 1;
+    &--next {
+      position: absolute;
+      bottom: 300px;
+    }
+    &--prev {
+      position: absolute;
+      bottom: 350px;
+    }
+    &-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 21px;
+      height: 12px;
+    }
+  }
+}
+
+.slider-product-info {
+  display: flex;
+  margin-bottom: 30px;
+  &__item {
+    margin-right: 70px;
+    &:last-child { margin-right: 0; }
+  }
+  &__title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: @orangeColor;
+    display: block;
+    margin-bottom: 10px;
+  }
+  &__line {
+    display: flex;
+    align-items: center;
+    color: @white;
+    margin-bottom: 5px;
+    &:last-child { margin-bottom: 5px; }
+  }
+  &__icon {
+    fill: @white;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  &__color { margin-right: 20px; }
+}
+
+.product-color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

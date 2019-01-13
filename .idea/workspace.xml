@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cad54409-de14-4dfe-8ca4-d2979cfcca5e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/pug/pages/index/slider.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/static/less/pages/index/slider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/static/less/pages/pages.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/modules/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/modules/header/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/modules/menu/menu.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/modules/menu/menu.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/template/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/template/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/utils/mixins.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/fonts/clearsans/clearsans.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/fonts/clearsans/clearsans.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/basket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/comparison.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/comparison.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/delivery.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/delivery.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/diameter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/diameter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/favorites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/favorites.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/location.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/login.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/login.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/payment.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/payment.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/register.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/register.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/images/svg/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/images/svg/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/header/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/header/header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/menu/menu.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/menu/menu.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/modules.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/modules.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/utils/helpers.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/utils/helpers.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/utils/libs.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/utils/libs.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/utils/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/utils/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/utils/vars.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/utils/vars.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/config/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/fonts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/img.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/img.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/less.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/pug.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/pug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/serve.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/serve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.sublime-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.sublime-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="menu.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/pug/modules/menu/menu.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/less/modules/menu/menu.less">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/pug/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/pug/pages/index/slider.pug">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulp/tasks/script.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="slider.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/less/pages/index/slider.less">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/dev/pug/index.pug" />
+        <option value="$PROJECT_DIR$/dev/static/less/pages/pages.less" />
+        <option value="$PROJECT_DIR$/dev/static/less/main.less" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="992" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="gulp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="gulp" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cad54409-de14-4dfe-8ca4-d2979cfcca5e" name="Default" comment="" />
+      <created>1547378229908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547378229908</updated>
+      <workItem from="1547378232305" duration="732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="732000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="992" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32960895" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/menu/menu.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/modules/menu/menu.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/pages.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/index/slider.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/index/slider.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
