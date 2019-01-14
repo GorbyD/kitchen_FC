@@ -14,12 +14,12 @@ $(document).ready(function (){
     $('.js-recommended-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
-        appendDots: '.recommended-slider__nav',
-        prevArrow: '.recommended-slider__controls--prev',
-        nextArrow: '.recommended-slider__controls--next',
+        appendDots: '.recommended-slider .product-prev-slider__nav',
+        prevArrow: '.recommended-slider .product-prev-slider__controls--prev',
+        nextArrow: '.recommended-slider .product-prev-slider__controls--next',
         dots: true,
         customPaging: function() {
-            return '<a class="recommended-slider__dot"></a>';
+            return '<a class="product-prev-slider__dot"></a>';
         },
     });
 
