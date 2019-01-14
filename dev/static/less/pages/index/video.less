@@ -1,0 +1,50 @@
+.video-review {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+  &__item {
+    position: relative;
+    width: 49.5%;
+    height: 350px;
+  }
+  &__info {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 18px 20px;
+    background-color: rgba(@black,.8);
+  }
+  &__date {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: @orangeColor;
+  }
+  &__link {
+    border-bottom: 1px solid @grayColor;
+    color: @white;
+  }
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  &__icon {
+    cursor: pointer;
+    opacity: .5;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    &:hover { opacity: .6; }
+  }
+}

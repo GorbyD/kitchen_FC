@@ -1,0 +1,22 @@
+.product-prev
+    img(src="static/images/content/products/prev1.jpg").product-prev__img
+    .product-prev__content
+        a(href="").product-prev__title Набор бокалов для красного вина серия-Frau, SCHOTT ZWIESEL
+        +productPrevLine('Материал: ','хрустальное стекло')
+        +productPrevLine('Высота: ','22.9 см')
+        +productPrevLine('Диаметр: ','9.1 см')
+        +productPrevLine('Назначение: ','для красного вина')
+        .product-prev__line-price
+            span.product-prev__price 635 &#8381;
+            .product-prev__availability
+                +icon('mark','product-prev__icon')
+                span Есть в наличии
+        .product-prev__line-action
+            .product-prev__action.product-prev__action--favorite
+                +icon('favorites','product-prev__icon')
+                span В избранное
+            .product-prev__action.product-prev__action--comparison
+                +icon('comparison','product-prev__icon')
+                span Сравнить
+    .product-prev__btn
+        a(href="").g-btn.g-btn--black В корзину

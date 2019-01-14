@@ -40,6 +40,14 @@ $(document).ready(function (){
 
 });
 
+$('.video-start').click(function () {
+   var videoID=$(this).parent().parent().data('video-id'),
+       videoPlayer=$(this).parent().parent().attr('id');
+   player = new YT.Player(videoPlayer, {
+       videoId: videoID
+   });
+})
+
 
 
 

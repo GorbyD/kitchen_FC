@@ -1,0 +1,22 @@
+.product-prev
+    img(src="static/images/content/products/prev1.jpg").product-prev__img
+    .product-prev__content
+        a(href="").product-prev__title Набор чайный "Ричоло" CHINELLI
+        +productPrevLine('Материал: ','фарфор')
+        +productPrevLine('Покрытие: ','глазурь')
+        +productPrevLine('Страна: ','Италия')
+        +productPrevLine('Вид упаковки: ','подарочная')
+        .product-prev__line-price
+            span.product-prev__price 9 155 &#8381;
+            .product-prev__availability
+                +icon('clock','product-prev__icon')
+                span Под заказ
+        .product-prev__line-action
+            .product-prev__action.product-prev__action--favorite
+                +icon('favorites','product-prev__icon')
+                span В избранное
+            .product-prev__action.product-prev__action--comparison
+                +icon('comparison','product-prev__icon')
+                span Сравнить
+    .product-prev__btn
+        a(href="").g-btn.g-btn--black В корзину
