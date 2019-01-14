@@ -1,0 +1,59 @@
+.recommended {
+  padding: 80px 0 60px;
+  &-slider {
+    &__nav {
+      text-align: center;
+      margin: 40px 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .slick-dots {
+        margin: 0 20px;
+        order: 2;
+        li {
+          display: inline-block;
+          margin: 0 5px;
+        }
+      }
+
+    }
+    &__dot {
+      display: block;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      border: 2px solid @blackColor;
+      cursor: pointer;
+    }
+    &__controls {
+      width: 46px;
+      height: 46px;
+      background-color: @blackColor;
+      cursor: pointer;
+      z-index: 1;
+      &--next {
+        position: relative;
+        order: 3;
+      }
+      &--prev {
+        position: relative;
+        order: 1;
+      }
+      &-icon {
+        fill: @white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 21px;
+        height: 12px;
+      }
+    }
+  }
+}
+
+.slick-active {
+  .recommended-slider__dot {
+    background-color: @blackColor;
+  }
+}

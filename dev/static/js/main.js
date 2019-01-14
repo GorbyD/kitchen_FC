@@ -1,5 +1,6 @@
 $(document).ready(function (){
     // svg4everybody({});
+    //Слайдер на главной странице
     $('.js-index-slider').slick({
         prevArrow: '.index-slider__controls--prev',
         nextArrow: '.index-slider__controls--next',
@@ -7,6 +8,18 @@ $(document).ready(function (){
         vertical: true,
         customPaging: function() {
           return '<a class="index-slider__dots"></a>';
+        },
+    });
+    //Слайдер рекомендованных товаров
+    $('.js-recommended-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        appendDots: '.recommended-slider__nav',
+        prevArrow: '.recommended-slider__controls--prev',
+        nextArrow: '.recommended-slider__controls--next',
+        dots: true,
+        customPaging: function() {
+            return '<a class="recommended-slider__dot"></a>';
         },
     });
 
