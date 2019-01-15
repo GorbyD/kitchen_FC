@@ -1,1 +1,51 @@
 footer { flex: 0 0 auto; }
+
+.footer {
+  padding: 60px 0;
+  background: url("../images/general/footer-bg.jpg") center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &__social-list { margin-bottom: 35px; }
+  &-content {
+    padding-top: 25px;
+    border-top: 1px solid @grayColor;
+  }
+  &-rules {
+    &__link {
+      color: @white;
+      border-bottom: 1px solid @grayColor;
+    }
+  }
+  .main-nav { margin-bottom: 30px; }
+}
+
+.copyright {
+  display: block;
+  margin-bottom: 15px;
+  color: @white;
+  font-size: 15px;
+}
+
+.payment-type {
+  &__title {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: @white;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 48%;
+  }
+  &__icon {
+    fill: @white;
+    width: 75px;
+    height: 35px;
+  }
+}

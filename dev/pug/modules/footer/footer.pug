@@ -1,1 +1,29 @@
+mixin socialLink(link,icon)
+    li.social-list__item
+        a(href= link).social-list__link
+            +icon(icon,'social-list__icon')
+
+mixin paymentType(icon)
+    li.payment-type__item
+        +icon(icon,'payment-type__icon')
+
 footer.footer
+    .container
+        include ../menu/menu
+        .footer-content
+            .footer-copyright
+                span.copyright © 2016, ООО "Время Кухни"
+                ul.social-list.footer__social-list
+                    +socialLink('','facebook')
+                    +socialLink('','vk')
+                    +socialLink('','instagram')
+                    +socialLink('','twitter')
+                a(href="").footer-rules__link Правила сайта
+            .payment-type.footer__payment-type
+                span.payment-type__title Мы принимаем:
+                ul.payment-type__list
+                    +paymentType('yandex-money')
+                    +paymentType('webmoney')
+                    +paymentType('sberbank')
+                    +paymentType('qiwi')
+
