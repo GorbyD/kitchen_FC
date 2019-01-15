@@ -23,6 +23,19 @@ $(document).ready(function (){
         },
     });
 
+    // Слайдер не пропустите
+    $('.js-donotmiss-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        appendDots: '.donotmiss-slider .product-prev-slider__nav',
+        prevArrow: '.donotmiss-slider .product-prev-slider__controls--prev',
+        nextArrow: '.donotmiss-slider .product-prev-slider__controls--next',
+        dots: true,
+        customPaging: function() {
+            return '<a class="product-prev-slider__dot"></a>';
+        },
+    });
+
     function indexSliderElemPos(elem,pos) {
       var windowWidth = $(window).width(),
           containerWidth = $('.container').width(),

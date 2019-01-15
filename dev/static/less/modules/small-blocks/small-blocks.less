@@ -6,7 +6,12 @@
   background-color: @white;
   text-transform: uppercase;
   text-decoration: underline;
+  border: 0;
+  cursor: pointer;
   &:visited { color: @black; }
+  &.g-btn--no-underline {
+    text-decoration: none;
+  }
   &.g-btn--black {
     background-color: @blackColor;
     color: @white;
