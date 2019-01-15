@@ -29,3 +29,22 @@
 .content-center {
   text-align: center;
 }
+
+.cont {
+  &-50 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 49.5%;
+  }
+  &-25 {
+    width: 49%;
+    flex-shrink: 0;
+  }
+  &-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

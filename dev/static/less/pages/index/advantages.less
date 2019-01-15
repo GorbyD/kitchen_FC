@@ -1,0 +1,42 @@
+.advantages {
+  background: url("../images/general/advantages_bg.jpg") center;
+  background-size: cover;
+  &-item {
+    width: 100%;
+    height: 100%;
+    background-color: @white;
+    padding: 25px;
+    &__title{
+      display: block;
+      text-transform: uppercase;
+      font-family: @bold-font;
+      line-height: 1.3;
+      &:after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: @black;
+        margin: 20px 0 15px;
+      }
+    }
+    &__text {
+      line-height: 1.3;
+    }
+    &__icon {
+      display: inline-block;
+      width: 27px;
+      height: 27px;
+      margin-bottom: 20px;
+    }
+    &.advantages-item--best-brands {
+      background: @white url("../images/general/advantages_best_brand.png") 90% center no-repeat;
+      padding-right: 55%;
+    }
+    &.advantages-item--real-goods {
+      background: @white url("../images/general/advantages_real_goods.png") 90% center no-repeat;
+      padding-right: 55%;
+    }
+  }
+  .cont-line { margin-bottom: 10px; }
+}
