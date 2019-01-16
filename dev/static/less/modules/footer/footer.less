@@ -4,19 +4,66 @@ footer { flex: 0 0 auto; }
   padding: 60px 0;
   background: url("../images/general/footer-bg.jpg") center;
   background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   &__social-list { margin-bottom: 35px; }
-  &-content {
-    padding-top: 25px;
-    border-top: 1px solid @grayColor;
+  &__payment-type {
+    max-width: 170px;
+    margin-right: 50px;
   }
+  &__phone {
+    color: @white;
+    margin-right: 10px;
+  }
+  &__feedback {
+    color: @white;
+    font-size: 15px;
+    border-bottom: 1px solid @linkBorderColor;
+  }
+  &-content {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 25px;
+    border-top: 1px solid @linkBorderColor;
+  }
+  &-copyright { margin-right: 40px; }
   &-rules {
     &__link {
       color: @white;
-      border-bottom: 1px solid @grayColor;
+      border-bottom: 1px solid @linkBorderColor;
     }
+  }
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    &__list {
+      width: 49%;
+      margin-right: 50px;
+      &:last-child { margin-right: 0; }
+    }
+    &__item {
+      margin-bottom: 10px;
+      &:last-child { margin-bottom: 0; }
+    }
+    &__link {
+      color: @white;
+      border-bottom: 1px solid @linkBorderColor;
+      white-space: nowrap;
+    }
+  }
+  &-subscribe-form {
+    &__line {
+      display: flex;
+      justify-content: space-between;
+      .g-input { margin-right: 10px; }
+    }
+    .g-label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+  &-contacts {
+    margin-left: auto;
+    &__line { margin-bottom: 30px; }
   }
   .main-nav { margin-bottom: 30px; }
 }

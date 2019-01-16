@@ -1,0 +1,24 @@
+extends template/main
+
+block variables
+    - var title = 'Страница продукта'
+    - var pageClass = 'product'
+
+block content
+    section.breadcrumbs
+        .container
+            ul.breadcrumbs-list
+                li.breadcrumbs-list__item
+                    a(href="").breadcrumbs-list__link Главная
+                li.breadcrumbs-list__item
+                    a(href="").breadcrumbs-list__link Бар и хрусталь
+                li.breadcrumbs-list__item
+                    a(href="").breadcrumbs-list__link Бокалы для красного вина
+
+    include pages/product/product
+    include modules/recommended/recommended
+
+
+
+block script
+    script(src="https://www.youtube.com/iframe_api")

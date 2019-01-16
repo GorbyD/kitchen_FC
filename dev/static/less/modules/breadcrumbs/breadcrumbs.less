@@ -1,0 +1,15 @@
+.breadcrumbs {
+  background-color: @breadcrumbsBgColor;
+  padding: 20px 0;
+  &-list {
+    display: flex;
+    &__item {
+      margin-right: 35px;
+      &:last-child { margin-right: 0; }
+    }
+    &__link {
+      font-size: 15px;
+      border-bottom: 1px solid @linkBorderColor;
+    }
+  }
+}

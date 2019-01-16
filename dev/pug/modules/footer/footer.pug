@@ -7,6 +7,10 @@ mixin paymentType(icon)
     li.payment-type__item
         +icon(icon,'payment-type__icon')
 
+mixin footerNavLink(link,title)
+    li.footer-nav__item
+        a(href= link).footer-nav__link= title
+
 footer.footer
     .container
         include ../menu/menu
@@ -26,4 +30,26 @@ footer.footer
                     +paymentType('webmoney')
                     +paymentType('sberbank')
                     +paymentType('qiwi')
+            .footer-nav
+                ul.footer-nav__list
+                    +footerNavLink('','Как заказать')
+                    +footerNavLink('','Оплата')
+                    +footerNavLink('','Доставка')
+                    +footerNavLink('','Статьи')
+                    +footerNavLink('','Видеообзоры')
+                ul.footer-nav__list
+                    +footerNavLink('','Бренды')
+                    +footerNavLink('','Возврат товара')
+                    +footerNavLink('','Новости магазина')
+                    +footerNavLink('','О магазине')
+                    +footerNavLink('','Контакты')
+            .footer-contacts
+                .footer-contacts__line
+                    a(href="tel:8800800800").footer__phone 8 800 800-800
+                    a(href="").footer__feedback Обратный звонок
+                form.footer-subscribe-form
+                    label(for="footer-subscribe-email").g-label Подпишитесь на новинки, акции и новости
+                    .footer-subscribe-form__line
+                        input(type="email" name="email").g-input.g-input--email#footer-subscribe-email
+                        input(type="submit" value='Подписаться').g-btn.g-btn--no-underline
 

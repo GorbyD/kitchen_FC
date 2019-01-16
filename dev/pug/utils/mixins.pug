@@ -5,3 +5,9 @@ mixin icon(name,mod)
 	else
 		svg(class="svg-sprite-icon icon-" + name)
 			use(xlink:href="static/images/svg/symbol/sprite.svg#" + name)
+
+//Линия по типу Материал: фарфор
+mixin productInfoLine(key,val)
+	.product-line-info
+		span.product-line-info__key= key
+		span.product-line-info__val= val
