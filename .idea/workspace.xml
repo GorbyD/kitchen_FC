@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad54409-de14-4dfe-8ca4-d2979cfcca5e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/pug/modules/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/modules/header/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev1.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev2.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev3.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev3.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev4.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev4.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/pug/pages/product/product.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/pages/product/product.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/footer/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/footer/footer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/header/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/header/header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/menu/menu.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/menu/menu.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/breadcrumbs/breadcrumbs.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/breadcrumbs/breadcrumbs.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/static/less/modules/product-prev/product-prev.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/product-prev/product-prev.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/static/less/pages/product/product.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/pages/product/product.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/static/less/utils/vars.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/utils/vars.less" afterDir="false" />
     </list>
@@ -28,20 +27,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="product.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/product.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="76" />
               <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-                <element signature="e#532#683#0" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+              <folding>
+                <element signature="e#35#56#0" />
+                <element signature="e#123#379#0" />
+                <element signature="e#306#372#0" />
+                <element signature="e#458#873#0" />
+                <element signature="e#792#866#0" />
+                <element signature="e#942#1351#0" />
+                <element signature="e#1270#1344#0" />
+                <element signature="e#1397#1600#0" />
+                <element signature="e#1740#1860#0" />
+                <element signature="e#1905#2096#0" />
+                <element signature="e#2062#2092#0" />
               </folding>
             </state>
           </provider>
@@ -50,39 +74,45 @@
       <file leaf-file-name="product.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/product.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+            <state relative-caret-position="232">
+              <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
               <folding>
-                <element signature="e#23#33#0" />
-                <element signature="e#106#116#0" />
-                <element signature="e#167#191#0" />
-                <element signature="e#201#259#0" />
-                <element signature="e#273#283#0" />
-                <element signature="e#352#362#0" />
-                <element signature="e#387#397#0" />
-                <element signature="e#466#480#0" />
-                <element signature="e#548#562#0" />
-                <element signature="e#441#455#0" />
-                <element signature="e#739#753#0" />
-                <element signature="e#838#848#0" />
-                <element signature="e#912#922#0" />
-                <element signature="e#965#979#0" />
-                <element signature="e#1151#1161#0" />
-                <element signature="e#1294#1316#0" />
-                <element signature="e#8#109#0" />
-                <element signature="e#266#296#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-prev1.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev1.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="e#23#83#0" />
+                <element signature="e#106#147#0" />
+                <element signature="e#165#189#0" />
+                <element signature="e#200#281#0" />
+                <element signature="e#296#381#0" />
+                <element signature="e#400#468#0" />
+                <element signature="e#482#892#0" />
+                <element signature="e#574#637#0" />
+                <element signature="e#650#707#0" />
+                <element signature="e#720#821#0" />
+                <element signature="e#834#888#0" />
+                <element signature="e#908#1020#0" />
+                <element signature="e#1034#1163#0" />
+                <element signature="e#1087#1159#0" />
+                <element signature="e#1176#1323#0" />
+                <element signature="e#1294#1319#0" />
+                <element signature="e#1335#1402#0" />
+                <element signature="e#1411#1475#0" />
+                <element signature="e#1490#1504#0" />
+                <element signature="e#1500#1510#0" />
+                <element signature="e#1648#1658#0" />
+                <element signature="e#1722#1732#0" />
+                <element signature="e#1771#2193#0" />
+                <element signature="e#1785#1799#0" />
+                <element signature="e#1858#1876#0" />
+                <element signature="e#1906#1928#0" />
+                <element signature="e#2002#2016#0" />
+                <element signature="e#2052#2189#0" />
+                <element signature="e#2068#2183#0" />
+                <element signature="e#2143#2175#0" />
+                <element signature="e#2379#2397#0" />
+                <element signature="e#2379#2397#0" />
+                <element signature="e#1773#1783#0" />
+                <element signature="e#2292#2364#0" />
+                <element signature="e#1427#1552#0" />
+                <element signature="e#1520#1550#0" />
               </folding>
             </state>
           </provider>
@@ -91,17 +121,31 @@
       <file leaf-file-name="product-prev.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/static/less/modules/product-prev/product-prev.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#47#116#0" />
                 <element signature="e#130#207#0" />
                 <element signature="e#219#314#0" />
+                <element signature="e#325#427#0" />
                 <element signature="e#353#381#0" />
                 <element signature="e#394#423#0" />
-                <element signature="e#440#504#0" />
-                <element signature="e#594#692#0" />
+                <element signature="e#513#611#0" />
+                <element signature="e#526#607#0" />
+                <element signature="e#636#1485#0" />
+                <element signature="e#647#906#0" />
+                <element signature="e#1501#1573#0" />
+                <element signature="e#1531#1571#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vars.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/less/utils/vars.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -118,11 +162,19 @@
       <find>@gra</find>
       <find>@redColor</find>
       <find />
-      <find />
       <find>.product-prev__availability</find>
       <find>.product-price__availability</find>
       <find>.product-prev__price</find>
       <find>main</find>
+      <find>compar</find>
+      <find>.product-action.product-action--favorite</find>
+      <find>.product-prev__action.product-prev__action--favorite</find>
+      <find>.product-action.product-action--comparison</find>
+      <find>.product-prev__action.product-prev__action--comparison</find>
+      <find>.product-prev__icon</find>
+      <find>product-prev__icon</find>
+      <find>product-info</find>
+      <find>@breadcrumbsBgColor</find>
     </findStrings>
     <replaceStrings>
       <replace>.cont-25</replace>
@@ -134,6 +186,12 @@
       <replace>.product-availability</replace>
       <replace>.product-price</replace>
       <replace>@notificationColor</replace>
+      <replace />
+      <replace>.product-action.product-action--favorite</replace>
+      <replace>.product-action.product-action--comparison</replace>
+      <replace>.product-action__icon</replace>
+      <replace>product-action__icon</replace>
+      <replace>@lightBgColor</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +211,6 @@
         <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/promo-prev.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/promo-news-prev/promo-news-prev.less" />
         <option value="$PROJECT_DIR$/dev/pug/pages/index/donotmiss.pug" />
-        <option value="$PROJECT_DIR$/dev/static/js/main.js" />
         <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/promo-prev1.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/promo-prev2.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/promo-prev3.pug" />
@@ -177,19 +234,20 @@
         <option value="$PROJECT_DIR$/dev/pug/product.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/pages/pages.less" />
         <option value="$PROJECT_DIR$/dev/pug/modules/recommended/recommended.pug" />
-        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev2.pug" />
-        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev3.pug" />
-        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev4.pug" />
         <option value="$PROJECT_DIR$/dev/pug/utils/mixins.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/header/header.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/header/header.less" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/footer/footer.less" />
-        <option value="$PROJECT_DIR$/dev/static/less/utils/vars.less" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/menu/menu.less" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less" />
-        <option value="$PROJECT_DIR$/dev/pug/pages/product/product.pug" />
-        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev1.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/product-prev/product-prev.less" />
+        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev1.pug" />
+        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev2.pug" />
+        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev3.pug" />
+        <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev4.pug" />
+        <option value="$PROJECT_DIR$/dev/static/less/utils/vars.less" />
+        <option value="$PROJECT_DIR$/dev/static/js/main.js" />
+        <option value="$PROJECT_DIR$/dev/pug/pages/product/product.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/pages/product/product.less" />
       </list>
     </option>
@@ -253,11 +311,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="667" />
-    <option name="y" value="229" />
-    <option name="width" value="1238" />
-    <option name="height" value="689" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="740" />
+    <option name="y" value="931" />
+    <option name="width" value="1019" />
+    <option name="height" value="586" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -267,7 +325,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,14 +349,6 @@
               <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="pug" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="pug" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
@@ -335,6 +384,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,27 +444,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45041000" />
+    <option name="totallyTimeSpent" value="52438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1054" y="237" width="1238" height="689" extended-state="0" />
+    <frame x="332" y="334" width="1019" height="586" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.66969144" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29302832" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25237092" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5764706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,10 +476,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Gulp" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6450839" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
@@ -490,13 +540,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/less/pages/index/donotmiss.less">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/modules/promo-news-prev/promo-prev/promo-prev1.pug">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,9 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/breadcrumbs/breadcrumbs.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/breadcrumbs/breadcrumbs.pug" />
     <entry file="file://$PROJECT_DIR$/dev/static/less/modules/modules.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -713,39 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev2.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev4.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev3.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/recommended/recommended.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/modules/header/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding>
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" />
-            <element signature="n#ul#1;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" />
-            <element signature="n#ul#2;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/utils/vars.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/less/modules/menu/menu.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -849,71 +854,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev4.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev3.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev2.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/utils/vars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/less/modules/product-prev/product-prev.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#47#116#0" />
             <element signature="e#130#207#0" />
             <element signature="e#219#314#0" />
+            <element signature="e#325#427#0" />
             <element signature="e#353#381#0" />
             <element signature="e#394#423#0" />
-            <element signature="e#440#504#0" />
-            <element signature="e#594#692#0" />
+            <element signature="e#513#611#0" />
+            <element signature="e#526#607#0" />
+            <element signature="e#636#1485#0" />
+            <element signature="e#647#906#0" />
+            <element signature="e#1501#1573#0" />
+            <element signature="e#1531#1571#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev1.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/recommended/recommended.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="19" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/product.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="105">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="76" />
           <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="e#532#683#0" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <element signature="e#35#56#0" />
+            <element signature="e#123#379#0" />
+            <element signature="e#306#372#0" />
+            <element signature="e#458#873#0" />
+            <element signature="e#792#866#0" />
+            <element signature="e#942#1351#0" />
+            <element signature="e#1270#1344#0" />
+            <element signature="e#1397#1600#0" />
+            <element signature="e#1740#1860#0" />
+            <element signature="e#1905#2096#0" />
+            <element signature="e#2062#2092#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/product.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        <state relative-caret-position="232">
+          <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
           <folding>
-            <element signature="e#23#33#0" />
-            <element signature="e#106#116#0" />
-            <element signature="e#167#191#0" />
-            <element signature="e#201#259#0" />
-            <element signature="e#273#283#0" />
-            <element signature="e#352#362#0" />
-            <element signature="e#387#397#0" />
-            <element signature="e#466#480#0" />
-            <element signature="e#548#562#0" />
-            <element signature="e#441#455#0" />
-            <element signature="e#739#753#0" />
-            <element signature="e#838#848#0" />
-            <element signature="e#912#922#0" />
-            <element signature="e#965#979#0" />
-            <element signature="e#1151#1161#0" />
-            <element signature="e#1294#1316#0" />
-            <element signature="e#8#109#0" />
-            <element signature="e#266#296#0" />
+            <element signature="e#23#83#0" />
+            <element signature="e#106#147#0" />
+            <element signature="e#165#189#0" />
+            <element signature="e#200#281#0" />
+            <element signature="e#296#381#0" />
+            <element signature="e#400#468#0" />
+            <element signature="e#482#892#0" />
+            <element signature="e#574#637#0" />
+            <element signature="e#650#707#0" />
+            <element signature="e#720#821#0" />
+            <element signature="e#834#888#0" />
+            <element signature="e#908#1020#0" />
+            <element signature="e#1034#1163#0" />
+            <element signature="e#1087#1159#0" />
+            <element signature="e#1176#1323#0" />
+            <element signature="e#1294#1319#0" />
+            <element signature="e#1335#1402#0" />
+            <element signature="e#1411#1475#0" />
+            <element signature="e#1490#1504#0" />
+            <element signature="e#1500#1510#0" />
+            <element signature="e#1648#1658#0" />
+            <element signature="e#1722#1732#0" />
+            <element signature="e#1771#2193#0" />
+            <element signature="e#1785#1799#0" />
+            <element signature="e#1858#1876#0" />
+            <element signature="e#1906#1928#0" />
+            <element signature="e#2002#2016#0" />
+            <element signature="e#2052#2189#0" />
+            <element signature="e#2068#2183#0" />
+            <element signature="e#2143#2175#0" />
+            <element signature="e#2379#2397#0" />
+            <element signature="e#2379#2397#0" />
+            <element signature="e#1773#1783#0" />
+            <element signature="e#2292#2364#0" />
+            <element signature="e#1427#1552#0" />
+            <element signature="e#1520#1550#0" />
           </folding>
         </state>
       </provider>

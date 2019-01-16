@@ -36,6 +36,32 @@ $(document).ready(function (){
         },
     });
 
+    //Слайдер продукта на отдельной странице
+    $('.js-product-gallery').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // arrows:false,
+        asNavFor: ".js-product-gallery-nav",
+        // appendDots: '.recommended-slider .product-prev-slider__nav',
+        prevArrow: '.product-gallery-controls--prev',
+        nextArrow: '.product-gallery-controls--next',
+        // dots: true,
+        // customPaging: function() {
+        //     return '<a class="product-prev-slider__dot"></a>';
+        // },
+    });
+
+    //Слайдер навигации продукта на отдельной странице
+    $('.js-product-gallery-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        // dots:true,
+        // centerMode:true,
+        focusOnSelect:true,
+        asNavFor: ".js-product-gallery"
+
+    });
+
     function indexSliderElemPos(elem,pos) {
       var windowWidth = $(window).width(),
           containerWidth = $('.container').width(),

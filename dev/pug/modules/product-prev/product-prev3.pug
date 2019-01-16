@@ -9,14 +9,14 @@
         .product-prev__line-price
             span.product-price 9 990 &#8381;
             .product-availability
-                +icon('mark','product-prev__icon')
+                +icon('mark','product-action__icon')
                 span Есть в наличии
         .product-prev__line-action
-            .product-prev__action.product-prev__action--favorite
-                +icon('favorites','product-prev__icon')
-                span В избранное
-            .product-prev__action.product-prev__action--comparison
-                +icon('comparison','product-prev__icon')
-                span Сравнить
+            .product-action.product-action--favorite
+                +icon('favorites','product-action__icon')
+                a(href="") В избранное
+            .product-action.product-action--comparison
+                +icon('comparison','product-action__icon')
+                a(href="") Сравнить
     .product-prev__btn
         a(href="").g-btn.g-btn--black В корзину

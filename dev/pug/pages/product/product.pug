@@ -2,6 +2,22 @@ section.product-prev
     .container
         .product-content
             .product-gallery
+                .product-gallery-main
+                    .product-gallery-controls.product-gallery-controls--prev
+                        +icon('chevron-left','product-gallery-controls__icon')
+                    .product-gallery-controls.product-gallery-controls--next
+                        +icon('chevron-right','product-gallery-controls__icon')
+                    .js-product-gallery
+                        .product-gallery__item
+                            img(src="static/images/content/products/product1/gallery-1.jpeg")
+                        .product-gallery__item
+                            img(src="static/images/content/products/product1/gallery-2.jpeg")
+                .product-gallery-nav
+                    .js-product-gallery-nav
+                        .product-gallery-nav__item
+                            img(src="static/images/content/products/product1/gallery-prev-1.jpeg")
+                        .product-gallery-nav__item
+                            img(src="static/images/content/products/product1/gallery-prev-2.jpeg")
             .product-info
                 h2.g-section-title.g-section-title--product Бокал для бордо 540 мл Stolzle Weinland
                 .product-fast-info
@@ -20,7 +36,7 @@ section.product-prev
                 .product-price-info
                     span.product-price 635 &#8381;
                     .product-availability
-                        +icon('mark','product-prev__icon')
+                        +icon('mark','product-action__icon')
                         span Есть в наличии
                     .product-feedback
                         +icon('mail','product-feedback__icon')
@@ -29,3 +45,31 @@ section.product-prev
                     a(href="").g-btn.g-btn--black Добавить в корзину
                     a(href="").g-btn.g-btn--border-black Купить в 1 клик
                 .product-actions
+                    .product-action.product-action--favorite
+                        +icon('favorites','product-action__icon')
+                        a(href="") В избранное
+                    .product-action.product-action--comparison
+                        +icon('comparison','product-action__icon')
+                        a(href="") Сравнить
+                    .product-action.product-action--share
+                        +icon('share','product-action__icon')
+                        a(href="") Поделиться
+                .product-line
+                    .product-delivery
+                        .product-title-icon
+                            +icon('delivery','product-title-icon__icon')
+                            span Доставка
+                        .product-delivery__info
+                            span По Москве и МО возможна
+                            span.product-delivery__date#delivery-date 11.11.2016
+                        .product-delivery__city
+                            span Ваш город
+                        ul.product-delivery-variants
+                            li.product-delivery-variants__item
+                                span.product-delivery-variants__key EMS Почта России
+                                span.product-delivery-variants__val (500 р, 4-5 дней)
+                    .product-warranty
+                        .product-title-icon
+                            +icon('warranty','product-title-icon__icon')
+                            span Гарантия
+                        span.product-warranty__text На этот товар в нашем магазине предоставляется гарантия сроком на 1 (один) год.
