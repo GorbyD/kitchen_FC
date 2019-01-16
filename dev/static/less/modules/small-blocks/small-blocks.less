@@ -8,13 +8,17 @@
   text-decoration: underline;
   border: 0;
   cursor: pointer;
+  text-align: center;
   &:visited { color: @black; }
   &.g-btn--no-underline {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
   &.g-btn--black {
     background-color: @blackColor;
     color: @white;
+  }
+  &.g-btn--border-black {
+    border: 2px solid @blackColor;
   }
 }
 

@@ -13,14 +13,20 @@
     display: flex;
   }
   &__item {
-    margin-right: 30px;
-    &:last-child { margin-right: 0; }
+    //margin-right: 30px;
+    //&:last-child { margin-right: 0; }
   }
   &__link {
+    display: block;
+    padding: 20px 10px;
     font-size: 15px;
     font-family: @bold-font;
     color: @white;
     text-transform: uppercase;
+    transition: all linear .3s;
+    &:hover {
+      background-color: @menuBGHoverColor;
+    }
   }
 }
 
