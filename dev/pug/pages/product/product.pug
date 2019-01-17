@@ -1,4 +1,4 @@
-section.product-prev
+section.product
     .container
         .product-content
             .product-gallery
@@ -51,9 +51,22 @@ section.product-prev
                     .product-action.product-action--comparison
                         +icon('comparison','product-action__icon')
                         a(href="") Сравнить
-                    .product-action.product-action--share
+                    .product-action.share
                         +icon('share','product-action__icon')
                         a(href="") Поделиться
+                        .share-popup
+                            .share-line
+                                +icon('share','share__icon')
+                                a(href="") Скопировать ссылку
+                            .share-line
+                                +icon('mail','share__icon')
+                                a(href="") Отправить ссылку на почту
+                            .share-line
+                                +icon('vk','share__icon')
+                                a(href="") Версия для печати
+                            .share-line
+                                +icon('share','share__icon')
+                                a(href="") Поделиться с друзьями
                 .product-line
                     .product-delivery
                         .product-title-icon

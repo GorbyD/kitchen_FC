@@ -1,0 +1,22 @@
+mixin tabsLink (show,text)
+    li.tabs-list__item(show-tab= show)&attributes(attributes)
+        span.tabs-list__text= text
+
+section.product-tabs
+    .container
+        .tabs
+            ul.tabs-list
+                +tabsLink('tab-characteristics','Характеристики')(class="active")
+                +tabsLink('tab-about','О бренде')
+                +tabsLink('tab-reviews','Отзывы')
+                +tabsLink('tab-faq','Вопрос-ответ')
+                +tabsLink('tab-video','Видео')
+                +tabsLink('tab-articles','Статьи')
+            .tabs-content
+                include tabs/characteristics
+                .tab-content__item.tab-about
+                .tab-content__item.tab-reviews
+                .tab-content__item.tab-faq
+                .tab-content__item.tab-video
+                .tab-content__item.tab-articles
+

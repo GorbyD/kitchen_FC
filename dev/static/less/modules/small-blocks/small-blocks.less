@@ -82,3 +82,36 @@
     fill: @white;
   }
 }
+
+.share {
+  position: relative;
+  &:hover {
+    .share-popup {
+      display: block;
+    }
+  }
+  &-popup {
+    display: none;
+    position: absolute;
+    top: 20px;
+    max-width: 280px;
+    padding: 25px;
+    background-color: @white;
+    box-shadow: 4px 0 16px 0 rgba(@black,.12);
+  }
+  &-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    &:last-child { margin-bottom: 0; }
+    a {
+      white-space: nowrap;
+      border-bottom-style: solid;
+    }
+  }
+  &__icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+  }
+}

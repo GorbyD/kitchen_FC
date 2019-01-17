@@ -1,0 +1,17 @@
+.product-characteristics {
+  width: 100%;
+  border-collapse: collapse;
+  &__key {
+    color: @accentColor;
+  }
+  td {
+    padding: 15px;
+    border: 0;
+    &:first-child { width: 60%; }
+  }
+  tr {
+    &:nth-child(odd) {
+      background-color: @lightBgColor;
+    }
+  }
+}

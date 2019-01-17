@@ -53,7 +53,7 @@ $(document).ready(function (){
 
     //Слайдер навигации продукта на отдельной странице
     $('.js-product-gallery-nav').slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         // dots:true,
         // centerMode:true,
@@ -61,6 +61,8 @@ $(document).ready(function (){
         asNavFor: ".js-product-gallery"
 
     });
+
+
 
     function indexSliderElemPos(elem,pos) {
       var windowWidth = $(window).width(),
@@ -85,6 +87,13 @@ $('.video-start').click(function () {
    player = new YT.Player(videoPlayer, {
        videoId: videoID
    });
+});
+
+//Табы на странице продукта
+$('.tabs-list__item').click(function() {
+    var tabName = $(this).attr('show-tab');
+    $(this).addClass('active').siblings().removeClass('active');
+    $('.tabs-content .' + tabName).addClass('active').siblings().removeClass('active');
 })
 
 
