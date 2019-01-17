@@ -94,8 +94,18 @@ $('.tabs-list__item').click(function() {
     var tabName = $(this).attr('show-tab');
     $(this).addClass('active').siblings().removeClass('active');
     $('.tabs-content .' + tabName).addClass('active').siblings().removeClass('active');
-})
+});
 
+//Аккордеон вопрос-ответ на табах
+$(document).on('click','.faq__title',function() {
+    $(this).parent().toggleClass('active');
+    var faqContent = $(this).siblings();
+    if(faqContent.is(':visible')) {
+        faqContent.slideUp();
+    } else {
+        faqContent.slideDown();
+    }
+})
 
 
 
