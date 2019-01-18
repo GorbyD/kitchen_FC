@@ -129,16 +129,17 @@ $('.review-stars--set .review-star').click(function () {
     cur.addClass('click-active');
 });
 
-$('.review-stars--set .review-star').mouseover(function () {
-    var cur = $(this);
-    rating(cur);
-    cur.addClass('active');
-})
+$('.review-stars--set .review-star')
+    .mouseover(function () {
+        var cur = $(this);
+        rating(cur);
+        cur.addClass('active');
+    })
     .mouseout(function() {
         var ratingLine = $('.review-stars--set .review-star');
         ratingLine.addClass('active');
 
-        for (var i = 5; i > 0; i--) {
+        for (var i = 5; i >= 0; i--) {
             if($(ratingLine[i]).hasClass('click-active')) {
                 break;
             }
