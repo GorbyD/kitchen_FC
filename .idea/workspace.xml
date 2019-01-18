@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad54409-de14-4dfe-8ca4-d2979cfcca5e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/pug/pages/product/you-see.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/static/less/pages/product/tabs/articles.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/static/less/pages/product/tabs/faq.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/static/less/pages/product/you-see.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/static/less/pages/product/tabs/reviews.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/pug/pages/product/product-tabs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/pages/product/product-tabs.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/pug/pages/product/tabs/articles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/pages/product/tabs/articles.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/pug/pages/product/tabs/faq.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/pages/product/tabs/faq.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/pug/product.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/product.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/pages/product/tabs/reviews.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/pages/product/tabs/reviews.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/pages/product/you-see.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/pages/product/you-see.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/modules/tabs/tabs.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/modules/tabs/tabs.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/pages/pages.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/pages/pages.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/main.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/static/less/pages/product/product-tabs.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/pages/product/product-tabs.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/static/less/pages/product/product.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/pages/product/product.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/pages/product/you-see.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/pages/product/you-see.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/static/less/utils/vars.less" beforeDir="false" afterPath="$PROJECT_DIR$/dev/static/less/utils/vars.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,18 +28,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="you-see.pug" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/you-see.pug">
+      <file leaf-file-name="reviews.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/reviews.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="you-see.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/you-see.less">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="reviews.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/tabs/reviews.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="e#25#35#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
+              <folding>
+                <element signature="e#29#2677#0" />
+                <element signature="e#35#56#0" />
+                <element signature="e#123#379#0" />
+                <element signature="e#306#372#0" />
+                <element signature="e#458#873#0" />
+                <element signature="e#792#866#0" />
+                <element signature="e#942#1351#0" />
+                <element signature="e#1270#1344#0" />
+                <element signature="e#1435#1885#0" />
+                <element signature="e#1747#1761#0" />
+                <element signature="e#1983#2161#0" />
+                <element signature="e#2045#2058#0" />
+                <element signature="e#2209#2412#0" />
+                <element signature="e#2552#2672#0" />
+                <element signature="e#2717#2908#0" />
+                <element signature="e#2874#2904#0" />
+                <element signature="e#2979#3179#0" />
+                <element signature="e#3265#3470#0" />
+                <element signature="e#3386#3423#0" />
+                <element signature="e#3429#3468#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="small-blocks.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-63">
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#286#314#0" />
+                <element signature="e#332#391#0" />
+                <element signature="e#416#456#0" />
+                <element signature="e#477#699#0" />
+                <element signature="e#645#697#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -101,9 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/static/less/modules/promo-news-prev/promo-news-prev.less" />
-        <option value="$PROJECT_DIR$/dev/pug/pages/index/donotmiss.pug" />
-        <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/promo-prev1.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/promo-prev2.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/promo-prev3.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/promo-prev4.pug" />
@@ -133,25 +179,28 @@
         <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev2.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev3.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/product-prev/product-prev4.pug" />
-        <option value="$PROJECT_DIR$/dev/static/less/utils/vars.less" />
         <option value="$PROJECT_DIR$/dev/pug/pages/product/product.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/modules.less" />
-        <option value="$PROJECT_DIR$/dev/static/less/main.less" />
         <option value="$PROJECT_DIR$/dev/pug/pages/product/tabs/characteristics.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/pages/product/tabs/characteristics.less" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/tabs/tabs.less" />
         <option value="$PROJECT_DIR$/dev/static/less/pages/product/product.less" />
         <option value="$PROJECT_DIR$/dev/pug/pages/product/tabs/faq.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/pages/product/tabs/faq.less" />
-        <option value="$PROJECT_DIR$/dev/static/js/main.js" />
-        <option value="$PROJECT_DIR$/dev/static/less/pages/product/product-tabs.less" />
-        <option value="$PROJECT_DIR$/dev/pug/pages/product/product-tabs.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less" />
         <option value="$PROJECT_DIR$/dev/static/less/pages/product/tabs/articles.less" />
         <option value="$PROJECT_DIR$/dev/pug/pages/product/tabs/articles.pug" />
         <option value="$PROJECT_DIR$/dev/pug/product.pug" />
         <option value="$PROJECT_DIR$/dev/static/less/pages/pages.less" />
+        <option value="$PROJECT_DIR$/dev/static/less/main.less" />
         <option value="$PROJECT_DIR$/dev/pug/pages/product/you-see.pug" />
+        <option value="$PROJECT_DIR$/dev/static/less/pages/product/you-see.less" />
+        <option value="$PROJECT_DIR$/dev/pug/pages/product/product-tabs.pug" />
+        <option value="$PROJECT_DIR$/dev/static/less/pages/product/product-tabs.less" />
+        <option value="$PROJECT_DIR$/dev/static/less/utils/vars.less" />
+        <option value="$PROJECT_DIR$/dev/pug/pages/product/tabs/reviews.pug" />
+        <option value="$PROJECT_DIR$/dev/static/js/main.js" />
+        <option value="$PROJECT_DIR$/dev/static/less/pages/product/tabs/reviews.less" />
       </list>
     </option>
   </component>
@@ -215,8 +264,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="930" />
-    <option name="y" value="157" />
+    <option name="x" value="1271" />
+    <option name="y" value="170" />
     <option name="width" value="1238" />
     <option name="height" value="623" />
   </component>
@@ -291,6 +340,16 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kitchen_FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kitchen_FC" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="tabs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -351,12 +410,13 @@
       <workItem from="1547378232305" duration="732000" />
       <workItem from="1547538061377" duration="20043000" />
       <workItem from="1547572392463" duration="2700000" />
-      <workItem from="1547720140573" duration="13243000" />
+      <workItem from="1547720140573" duration="13349000" />
+      <workItem from="1547797085386" duration="9627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68938000" />
+    <option name="totallyTimeSpent" value="78671000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +428,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="930" y="157" width="1238" height="623" extended-state="0" />
+    <frame x="1271" y="170" width="1238" height="623" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32849365" />
@@ -376,22 +436,22 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32849365" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.643299" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.64123714" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2525" />
-      <window_info anchor="bottom" id="Get Gist" weight="0.19716775" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2525" />
+      <window_info anchor="bottom" id="Get Gist" order="8" weight="0.19587629" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5764706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5764706" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,9 +487,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/index/slider.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/less/pages/index/pic-menu.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -636,9 +693,6 @@
     <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/about.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/reviews.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/video.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -654,24 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/tabs/characteristics.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/utils/vars.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -704,17 +744,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/product.pug">
+    <entry file="file://$PROJECT_DIR$/dev/static/less/modules/tabs/tabs.less">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="e#423#473#0" />
+            <element signature="e#489#596#0" />
+            <element signature="e#549#588#0" />
+            <element signature="e#611#629#0" />
+            <element signature="e#615#705#0" />
+            <element signature="e#719#941#0" />
+            <element signature="e#954#1051#0" />
+            <element signature="e#968#1049#0" />
+            <element signature="e#982#1045#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/tabs/faq.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#778#890#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/faq.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="228" selection-start-line="8" selection-start-column="228" selection-end-line="8" selection-end-column="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/promo-news-prev/promo-prev.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/news-prev1.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/tabs/articles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/articles.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="11" column="349" selection-start-line="11" selection-start-column="349" selection-end-line="11" selection-end-column="349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/pages.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/product.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="91" />
+          <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
@@ -742,54 +851,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/modules/tabs/tabs.less">
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/you-see.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="315">
+          <caret line="15" column="112" selection-start-line="15" selection-start-column="112" selection-end-line="15" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/you-see.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/product.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
-            <element signature="e#423#473#0" />
-            <element signature="e#489#596#0" />
-            <element signature="e#549#588#0" />
-            <element signature="e#611#629#0" />
-            <element signature="e#615#705#0" />
-            <element signature="e#719#941#0" />
-            <element signature="e#954#1051#0" />
-            <element signature="e#968#1049#0" />
-            <element signature="e#982#1045#0" />
+            <element signature="n#section#0;n#block#1;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/characteristics.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/tabs/faq.less">
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/product-tabs.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="250">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/product-tabs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/utils/vars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/reviews.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
           <folding>
-            <element signature="e#778#890#0" />
+            <element signature="e#286#314#0" />
+            <element signature="e#332#391#0" />
+            <element signature="e#416#456#0" />
+            <element signature="e#477#699#0" />
+            <element signature="e#645#697#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/faq.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="228" selection-start-line="8" selection-start-column="228" selection-end-line="8" selection-end-column="228" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
+        <state relative-caret-position="273">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
           <folding>
-            <element signature="e#29#2675#0" />
+            <element signature="e#29#2677#0" />
             <element signature="e#35#56#0" />
             <element signature="e#123#379#0" />
             <element signature="e#306#372#0" />
@@ -801,109 +941,25 @@
             <element signature="e#1747#1761#0" />
             <element signature="e#1983#2161#0" />
             <element signature="e#2045#2058#0" />
-            <element signature="e#2207#2410#0" />
-            <element signature="e#2550#2670#0" />
-            <element signature="e#2715#2906#0" />
-            <element signature="e#2872#2902#0" />
-            <element signature="e#2983#3199#0" />
-            <element signature="e#3229#3237#0" />
+            <element signature="e#2209#2412#0" />
+            <element signature="e#2552#2672#0" />
+            <element signature="e#2717#2908#0" />
+            <element signature="e#2874#2904#0" />
+            <element signature="e#2979#3179#0" />
+            <element signature="e#3265#3470#0" />
+            <element signature="e#3386#3423#0" />
+            <element signature="e#3429#3468#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/product-tabs.less">
+    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/tabs/reviews.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/promo-news-prev/promo-prev.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/promo-news-prev/news-prev/news-prev1.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/modules/small-blocks/small-blocks.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="336">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="e#7#458#0" />
-            <element signature="e#286#314#0" />
-            <element signature="e#332#391#0" />
-            <element signature="e#416#456#0" />
-            <element signature="e#477#699#0" />
-            <element signature="e#645#697#0" />
-            <element signature="e#717#742#0" />
-            <element signature="e#750#1016#0" />
-            <element signature="e#759#878#0" />
-            <element signature="e#886#927#0" />
-            <element signature="e#937#1014#0" />
-            <element signature="e#1031#1446#0" />
-            <element signature="e#1060#1190#0" />
-            <element signature="e#1201#1285#0" />
-            <element signature="e#1296#1444#0" />
-            <element signature="e#1455#2008#0" />
-            <element signature="e#1489#1541#0" />
-            <element signature="e#1508#1537#0" />
-            <element signature="e#1552#1733#0" />
-            <element signature="e#1743#1931#0" />
-            <element signature="e#1859#1927#0" />
-            <element signature="e#1942#2006#0" />
+            <element signature="e#25#35#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/tabs/articles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/tabs/articles.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="11" column="349" selection-start-line="11" selection-start-column="349" selection-end-line="11" selection-end-column="349" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/product.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="n#section#0;n#block#1;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/pages.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/less/pages/product/you-see.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/product-tabs.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/product/you-see.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>

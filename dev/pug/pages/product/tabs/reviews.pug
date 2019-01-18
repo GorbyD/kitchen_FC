@@ -1,0 +1,18 @@
+.tab-content__item.tab-reviews
+    .product-reviews
+        .add-review__line
+            .add-review
+                .your-review
+                    span.review-mini-title Ваша оценка
+                    .review-stars.review-stars--set
+                        - var val=0
+                        while val < 5
+                            .review-star(data-rating=val++)
+                                +icon('star','review-star__icon')
+                a(href="").g-btn.g-btn--black.g-btn--no-underline Добавить отзыв
+            .product-reviews__info
+                .review-middle__line
+                    span.review-mini-title Средняя оценка покупателей
+                    .review-stars
+                        .review-star
+                span.review-count Всего оценки 3

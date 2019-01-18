@@ -1,0 +1,46 @@
+.review {
+  &-mini-title {
+    font-family: @bold-font;
+    margin-right: 15px;
+  }
+  &-stars {
+    display: flex;
+  }
+  &-star {
+    margin: 0 5px;
+    cursor: pointer;
+    &__icon {
+      width: 23px;
+      height: 23px;
+      fill: @black; //transparent
+      stroke: @ratingColor;
+    }
+    &.active {
+      .review-star__icon {
+        fill: @ratingColor; //@ratingColor
+      }
+    }
+  }
+}
+
+.your-review,
+.review-middle__line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.add {
+  &-review {
+    margin-right: 30px;
+    .g-btn {
+      width: 100%;
+      font-family: @bold-font;
+    }
+  }
+  &-review__line {
+    background-color: @lightBgColor;
+    padding: 25px 30px;
+    display: flex;
+  }
+}
