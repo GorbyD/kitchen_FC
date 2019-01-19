@@ -1,14 +1,45 @@
 .review {
+  position: relative;
+  padding: 40px 0 40px 90px;
+  border-bottom: 1px solid @lightBgColor;
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  &-photo {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+
+    &.review-photo--no {
+      border: 1px solid @lightBgColor;
+      span { display: block; }
+    }
+    span {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 15px;
+      color: @accentColor;
+      text-align: center;
+    }
+  }
   &-mini-title {
     font-family: @bold-font;
     margin-right: 15px;
   }
   &-stars {
     display: flex;
+    &--set {
+      .review-star { cursor: pointer; }
+    }
   }
   &-star {
     margin: 0 5px;
-    cursor: pointer;
     &__icon {
       width: 23px;
       height: 23px;
@@ -20,6 +51,45 @@
         fill: @ratingColor; //@ratingColor
       }
     }
+  }
+  &-mark {
+    margin-left: 10px;
+  }
+  &-author {
+    margin-right: auto;
+    font-family: @bold-font;
+  }
+  &-content {
+    &__top {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+  }
+  &-date {
+    margin-left: 30px;
+    color: @accentColor;
+    &__icon {
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+    }
+  }
+  &-text-block {
+    display: flex;
+    &.review-text-block--plus { margin-bottom: 30px; }
+  }
+  &-comment {
+    &__title {
+      font-size: 15px;
+      color: @accentColor;
+      width: 120px;
+      flex-shrink: 0;
+    }
+  }
+  &-text {
+    line-height: 1.3;
   }
 }
 

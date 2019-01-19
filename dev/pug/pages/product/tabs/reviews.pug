@@ -14,5 +14,33 @@
                 .review-middle__line
                     span.review-mini-title Средняя оценка покупателей
                     .review-stars
-                        .review-star
+                        - var val=0
+                        while val < 5
+                            .review-star(data-rating=val++).active
+                                +icon('star','review-star__icon')
+                    span.review-mini-title.review-mark 4.2
                 span.review-count Всего оценки 3
+        .review
+            .review-photo.review-photo--no
+                span Нет фото
+            .review-content
+                .review-content__top
+                    span.review-author Уваров Святослав Михайлович
+                    .review-stars
+                        - var val=0
+                        while val < 5
+                            .review-star(data-rating=val++).active
+                                +icon('star','review-star__icon')
+                    .review-date
+                        +icon('vk','review-date__icon')
+                        span 27 августа 2016
+                .review-text-block.review-text-block--plus
+                    span.review-comment__title Достоинства
+                    p.review-text Все устраивает за такую небольшую сумму, а приготовит блюда не хуже, чем навороченная модель за 5000 руб. А у кого каша или суп убегают через клапан, так старайтесь не переливать жидкость в емкость, помните, что при нагревании жидкость расширяется. Если не понравилась модель, без проблем вернете в течении 14 дней. Никакого абсолютно запаха пластика нет. Недоброжелатели и завистники сидят у монитора и выдумывают о модели разные небылицы.
+                .review-text-block.review-text-block--minus
+                    span.review-comment__title Недостатки
+                    p.review-text Нет
+
+
+        .review
+            //.review-photo(style="background-image: url('static/images/content/promo/promo1/prev.jpg');")
