@@ -1,0 +1,23 @@
+extends template/main
+
+block variables
+    - var title = 'Каталог'
+    - var pageClass = 'product'
+
+block content
+    section.breadcrumbs
+        .container
+            ul.breadcrumbs-list
+                li.breadcrumbs-list__item
+                    a(href="").breadcrumbs-list__link Главная
+                li.breadcrumbs-list__item
+                    a(href="").breadcrumbs-list__link Хранение вина
+
+    include modules/filter/filter
+    include pages/catalog/brands
+    include pages/index/promo
+
+
+
+block script
+    script(src="https://www.youtube.com/iframe_api")

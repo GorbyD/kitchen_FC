@@ -1,0 +1,43 @@
+.filter {
+  &-color {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid @filterColor;
+    &__item {
+      margin-right: 10px;
+      &:last-child { margin-right: 0; }
+    }
+    &__check {
+      position: relative;
+
+      input[type="checkbox"] {
+        display: none;
+        &:checked {
+          &~.checkbox-custom {
+            &:after {
+              content: '';
+            }
+          }
+        }
+      }
+    }
+    &__icon {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background-color: @white;
+      width: 12px;
+      height: 12px;
+      .checkbox-custom__icon {
+        width: 9px;
+        height: 9px;
+      }
+    }
+    &__list {
+      display: flex;
+    }
+  }
+}
+
+

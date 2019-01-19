@@ -11,3 +11,9 @@ mixin productInfoLine(key,val)
 	.product-line-info
 		span.product-line-info__key= key
 		span.product-line-info__val= val
+
+//Список брендов
+mixin brandItem(link,title,country)
+	li.brands-list__item
+		a(href= link).brands-list__link= title
+		span.brands-list__country= country

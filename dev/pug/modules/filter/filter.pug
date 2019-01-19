@@ -1,0 +1,38 @@
+mixin filterPriceLink(price)
+    li.filter-price__item
+        a(href="").filter-price__link= price
+
+mixin colorCheck(bg)
+    li.filter-color__item
+        label.filter-color__check
+            input(type="checkbox")
+            .filter-color(style= bg)
+                .filter-color__icon
+                    +icon('check','checkbox-custom__icon')
+
+section.s-filter
+    .container
+        h2.g-section-title Винные шкафы
+        .filter
+            .filter-count-res
+                span Выбрано
+                span.count-res__number 242 модели
+            .filter-top
+                .filter-top__item
+                    span.filter-item__title Стоимость
+                    ul.filter-price__list
+                        +filterPriceLink('от 50 тыс.руб.')
+                        +filterPriceLink('от 500 тыс.руб.')
+                        +filterPriceLink('от 1 млн. руб.')
+                    input(type="range")
+                    .filter-price__text
+                        span От
+                        input(type="text").filter-input
+                        span до
+                        input(type="text").filter-input
+                        span руб.
+                .filter-top__item
+                    span.filter-item__title Цвет
+                    ul.filter-color__list
+                        +colorCheck('background-color:red;')
+                        +colorCheck('background-color:blue;')

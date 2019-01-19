@@ -1,0 +1,29 @@
+.brands {
+  background-color: @lightBgColor;
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 35px;
+    &__item {
+      margin-bottom: 15px;
+      width: 19%;
+      text-align: left;
+    }
+    &__link {
+      display: inline-block;
+      margin-right: 5px;
+      color: @white;
+      text-transform: uppercase;
+      border-bottom: 1px solid @linkBorderColor;
+    }
+    &__country {
+      color: @accentColor;
+    }
+  }
+
+  .brands-list__link {
+    color: @black;
+  }
+}
