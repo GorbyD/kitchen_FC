@@ -8,7 +8,15 @@ mixin colorCheck(bg)
             input(type="checkbox")
             .filter-color(style= bg)
                 .filter-color__icon
-                    +icon('check','checkbox-custom__icon')
+                    +icon('check','check__icon')
+
+mixin brandsItem(title)
+    li.filter-brands__item
+        label.checkbox
+            | #{title}
+            input(type="checkbox")
+            .checkbox-custom
+                +icon('check','check__icon')
 
 section.s-filter
     .container
@@ -16,9 +24,9 @@ section.s-filter
         .filter
             .filter-count-res
                 span Выбрано
-                span.count-res__number 242 модели
-            .filter-top
-                .filter-top__item
+                span.count-res__number  242 модели
+            .filter-line.filter-line--top
+                .filter-top__item.filter-top__item--price
                     span.filter-item__title Стоимость
                     ul.filter-price__list
                         +filterPriceLink('от 50 тыс.руб.')
@@ -26,13 +34,32 @@ section.s-filter
                         +filterPriceLink('от 1 млн. руб.')
                     input(type="range")
                     .filter-price__text
-                        span От
-                        input(type="text").filter-input
-                        span до
-                        input(type="text").filter-input
+                        .filter-price__val.filter-price__val--from
+                            span От
+                            input(type="text").filter-input
+                        .filter-price__val.filter-price__val--to
+                            span до
+                            input(type="text").filter-input
                         span руб.
-                .filter-top__item
+                .filter-top__item.filter-top__item--color
                     span.filter-item__title Цвет
                     ul.filter-color__list
                         +colorCheck('background-color:red;')
                         +colorCheck('background-color:blue;')
+                    label.checkbox.checkbox--bold
+                        | Бесплатное подключение
+                        input(type="checkbox")
+                        .checkbox-custom
+                            +icon('check','check__icon')
+
+                .filter-top__item.filter-top__item--brands
+                    span.filter-item__title Бренды
+                    ul.filter-brands__list
+                        +brandsItem('Все бренды')
+                        +brandsItem('Все бренды')
+                        +brandsItem('Все бренды')
+                        +brandsItem('Все бренды')
+                        +brandsItem('Все бренды')
+                        +brandsItem('Все бренды')
+                        +brandsItem('Все бренды')
+                        +brandsItem('Все бренды')
