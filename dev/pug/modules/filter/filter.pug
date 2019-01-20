@@ -28,16 +28,20 @@ section.s-filter
             .filter-line.filter-line--top
                 .filter-top__item.filter-top__item--price
                     span.filter-item__title Стоимость
-                    ul.filter-price__list
+                    //ul.filter-price__list
+                    ul.filter-range-list
                         +filterPriceLink('от 50 тыс.руб.')
                         +filterPriceLink('от 500 тыс.руб.')
                         +filterPriceLink('от 1 млн. руб.')
                     input(type="range")
-                    .filter-price__text
-                        .filter-price__val.filter-price__val--from
+                    //.filter-range
+                        .range-slider
+                        .filter
+                    .filter-range__text
+                        .filter-range__val.filter-range__val--from
                             span От
                             input(type="text").filter-input
-                        .filter-price__val.filter-price__val--to
+                        .filter-range__val.filter-range__val--to
                             span до
                             input(type="text").filter-input
                         span руб.
@@ -63,3 +67,4 @@ section.s-filter
                         +brandsItem('Все бренды')
                         +brandsItem('Все бренды')
                         +brandsItem('Все бренды')
+

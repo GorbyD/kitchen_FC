@@ -41,27 +41,9 @@
     }
   }
   &-price {
-    &__list {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 15px;
-    }
     &__link {
       border-bottom: 1px dotted @linkBorderColor;
       font-size: 15px;
-    }
-    &__text {
-      display: flex;
-      align-items: center;
-    }
-    &__val {
-      display: flex;
-      justify-content: space-between;
-      flex-shrink: 0;
-      width: 130px;
-      margin-right: 10px;
-      align-items: center;
-      span { margin-right: 10px; }
     }
   }
   &-color {
@@ -120,6 +102,26 @@
       width: 30%;
       flex-shrink: 0;
       margin-bottom: 10px;
+    }
+  }
+  &-range {
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    &__text {
+      display: flex;
+      align-items: center;
+    }
+    &__val {
+      display: flex;
+      justify-content: space-between;
+      flex-shrink: 0;
+      width: 130px;
+      margin-right: 10px;
+      align-items: center;
+      span { margin-right: 10px; }
     }
   }
 }
