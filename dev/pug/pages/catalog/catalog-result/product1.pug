@@ -14,43 +14,46 @@
         .product-prev__title
             a(href="") Винный шкаф Liebherr WKEes553 GrandCru
         .product-prev__middle-content
-            .product-lines-info
-                +productInfoLine('Артикул: ','144-4359')
-                +productInfoLine('Торговая марка: ','Liebherr (Германия)')(class="product-line-info--prev")
-                +productInfoLine('Высота: ','192 см')
-                +productInfoLine('Ширина: ','70 см')
-                +productInfoLine('Защита от детей: ','есть')
-            .product-prev__link
-                a(href="product.html") Подробнее о товаре
-            .product-actions.product-actions--2col
-                .product-action.product-action--favorite
-                    +icon('favorites','product-action__icon')
-                    a(href="") В избранное
-                .product-action.product-action--comparison
-                    +icon('comparison','product-action__icon')
-                    a(href="") Сравнить
-                .product-action.share
-                    +icon('share','product-action__icon')
-                    a(href="") Поделиться
-                    .share-popup
-                        .share-line
-                            +icon('share','share__icon')
-                            a(href="") Скопировать ссылку
-                        .share-line
-                            +icon('mail','share__icon')
-                            a(href="") Отправить ссылку на почту
-                        .share-line
-                            +icon('vk','share__icon')
-                            a(href="") Версия для печати
-                        .share-line
-                            +icon('share','share__icon')
-                            a(href="") Поделиться с друзьями
-            .product-prev__line-price
-                span.product-price 247 500 &#8381;
-                .product-availability
-                    +icon('mark','product-action__icon')
-                    span Есть в наличии
-            .product-prev__text Две температурных зоны обеспечат хранение различных сортов напитка в необходимых условиях, светодиодное освещение внутри камеры холодильника очень удобно. Чтобы посторонние запахи не испортили качество напитка, производитель позаботился о свежести внутри шкафа.
+            .product-prev__middle-content-left
+                .product-lines-info
+                    +productInfoLine('Артикул: ','144-4359')
+                    +productInfoLine('Торговая марка: ','Liebherr (Германия)')(class="product-line-info--prev")
+                    +productInfoLine('Высота: ','192 см')
+                    +productInfoLine('Ширина: ','70 см')
+                    +productInfoLine('Защита от детей: ','есть')
+                .product-prev__link
+                    a(href="product.html") Подробнее о товаре
+                .product-actions.product-actions--2col
+                    .product-action.product-action--favorite
+                        +icon('favorites','product-action__icon')
+                        a(href="") В избранное
+                    .product-action.product-action--comparison
+                        +icon('comparison','product-action__icon')
+                        a(href="") Сравнить
+                    .product-action.share
+                        +icon('share','product-action__icon')
+                        a(href="") Поделиться
+                        .share-popup
+                            .share-line
+                                +icon('share','share__icon')
+                                a(href="") Скопировать ссылку
+                            .share-line
+                                +icon('mail','share__icon')
+                                a(href="") Отправить ссылку на почту
+                            .share-line
+                                +icon('vk','share__icon')
+                                a(href="") Версия для печати
+                            .share-line
+                                +icon('share','share__icon')
+                                a(href="") Поделиться с друзьями
+                .product-prev__line-price
+                    span.product-price 247 500 &#8381;
+                    .product-availability
+                        +icon('mark','product-action__icon')
+                        span Есть в наличии
+            .product-prev__text
+                p Две температурных зоны обеспечат хранение различных сортов напитка в необходимых условиях, светодиодное освещение внутри камеры холодильника очень удобно. Чтобы посторонние запахи не испортили качество напитка, производитель позаботился о свежести внутри шкафа.
+                a(href="product.html").product-prev__text-link Подробнее
         .product-prev__btn
             a(href="").g-btn.g-btn--border-black.g-btn-buy В корзину
             a(href="").g-btn.g-btn--border-black.g-btn-one-click Купить в 1 клик

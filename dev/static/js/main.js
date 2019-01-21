@@ -101,10 +101,20 @@ $('.video-start').click(function () {
 });
 
 //Табы на странице продукта
-$('.tabs-list__item').click(function() {
+// $('.tabs-list__item').click(function() {
+//     var tabName = $(this).attr('show-tab');
+//     $(this).addClass('active').siblings().removeClass('active');
+//     $('.tabs-content .' + tabName).addClass('active').siblings().removeClass('active');
+// });
+
+//Табы For Customer
+$(document).on('click','.tabs-list__item', function () {
     var tabName = $(this).attr('show-tab');
+    if ($(this).parents().hasClass('tabs-list--for-customer')) {
+        window.location.href = '#' + tabName;
+    }
     $(this).addClass('active').siblings().removeClass('active');
-    $('.tabs-content .' + tabName).addClass('active').siblings().removeClass('active');
+    $('.tabs-content .'+tabName).addClass('active').siblings().removeClass('active');
 });
 
 //Аккордеон вопрос-ответ на табах
