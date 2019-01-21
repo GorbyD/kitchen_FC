@@ -62,6 +62,17 @@ $(document).ready(function (){
 
     });
 
+    $('.js-catalog-view__slider').slick({
+        lazyload:'ondemand',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        customPaging: function(slider, i) {
+            var thumb = $(slider.$slides[i]).data('thumb');
+            return '<a><img src="'+thumb+'"></a>';
+        }
+    });
 
 
     function indexSliderElemPos(elem,pos) {
