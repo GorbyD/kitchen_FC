@@ -1,0 +1,55 @@
+.page-banner {
+  &--payment {
+    //background-image: url();
+  }
+  &__content {
+    &--payment {
+      padding-right: 30%;
+      &:before {
+        content: '';
+        position: absolute;
+        top: -30px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        //background: url() right 0 no-repeat; картинка с девушкой
+        background-size: 20%;
+      }
+    }
+  }
+}
+
+.accordion {
+  &-item-top--payment {
+    display: flex;
+    align-items: center;
+    background-color: @lightBgColor;
+    padding: 25px 30px;
+  }
+  &-item {
+    &__icon {
+      width: 25px;
+      height: 25px;
+      margin-right: 20px;
+    }
+    &.active {
+      .accordion-title {
+        &.accordion-title--payment {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &-title {
+    &.accordion-title--payment {
+      font-size: 24px;
+      border-bottom: 1px dotted @linkBorderColor;
+      font-family: @bold-font;
+    }
+  }
+  &-content {
+    &.accordion-content--payment {
+      padding: 0 30px 30px 70px;
+    }
+  }
+}

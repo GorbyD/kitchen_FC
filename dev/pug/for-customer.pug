@@ -5,9 +5,32 @@ block variables
     - var pageClass = 'for-customer'
 
 block content
-
-
-
-
-block script
-    script(src="https://www.youtube.com/iframe_api")
+    section.breadcrumbs
+        .container
+            ul.breadcrumbs-list
+                li.breadcrumbs-list__item
+                    a(href="").breadcrumbs-list__link Главная
+    section.for-customer-banner
+        .tabs-content
+            include pages/for-customer/exchange/banner
+            include pages/for-customer/delivery/banner
+            include pages/for-customer/warranty/banner
+            include pages/for-customer/return/banner
+            include pages/for-customer/payment/banner
+    section.for-customer-tabs
+        .container
+            h1.g-page-title Для покупателя
+            .tabs
+                ul.tabs-list.tabs-list--for-customer
+                    +tabsLink('tab-how-order','Как заказать')(class="active")
+                    +tabsLink('tab-delivery','Доставка и получение')
+                    +tabsLink('tab-payment','Оплата')
+                    +tabsLink('tab-warranty','Гарантия')
+                    +tabsLink('tab-return','Возврат')
+                    +tabsLink('tab-exchange','Обмен товаров')
+                .tabs-content
+                    include pages/for-customer/exchange/content
+                    include pages/for-customer/delivery/content
+                    include pages/for-customer/warranty/content
+                    include pages/for-customer/return/content
+                    include pages/for-customer/payment/content

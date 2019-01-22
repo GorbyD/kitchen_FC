@@ -117,8 +117,29 @@ $(document).on('click','.tabs-list__item', function () {
     $('.tabs-content .'+tabName).addClass('active').siblings().removeClass('active');
 });
 
-//Аккордеон вопрос-ответ на табах
-$(document).on('click','.faq__title',function() {
+if (window.location.hash) {
+    var loc = window.location.hash.split('').splice(1).join(''),
+        tabsList = $('.tabs-list--for-customer li'),
+        tabsContentList = $('.tab-content__item');
+    for (var i = 0,iLen= tabsList.length; i < iLen; i++) {
+        var attr = $(tabsList[i]).attr('show-tab');
+        if (attr === loc) {
+            $(tabsList[i]).addClass('active');
+        } else {
+            $(tabsList[i]).removeClass('active');
+        }
+    }
+    for (var j = 0, jLen = tabsContentList.length; j < jLen; j++) {
+        if ($(tabsContentList[j]).hasClass(loc)) {
+            $(tabsContentList[j]).addClass('active');
+        } else {
+            $(tabsContentList[j]).removeClass('active');
+        }
+    }
+}
+
+//Аккордеон
+$(document).on('click','.accordion-item-top',function() {
     $(this).parent().toggleClass('active');
     var faqContent = $(this).siblings();
     if(faqContent.is(':visible')) {

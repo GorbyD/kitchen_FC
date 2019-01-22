@@ -1,0 +1,18 @@
+mixin paymentItem(title,text,icon)
+    .accordion-item
+        .accordion-item-top.accordion-item-top--payment
+            +icon(icon,'accordion-item__icon')
+            span.accordion-title.accordion-title--payment= title
+        .accordion-content.accordion-content--payment
+            p.accordion-text= text
+
+.tab-content__item.tab-payment
+
+    .product-faq
+        +paymentItem('Наличными курьеру','','wallet')
+        +paymentItem('Банковский перевод','','wallet')
+        +paymentItem('Банковской картой курьеру','','wallet')
+        +paymentItem('Банковской картой онлайн','','wallet')
+        +paymentItem('Электронными деньгами онлайн','','wallet')
+        +paymentItem('Наложенный платеж EMS','','wallet')
+        +paymentItem('Наложенный платеж в постамате','','wallet')

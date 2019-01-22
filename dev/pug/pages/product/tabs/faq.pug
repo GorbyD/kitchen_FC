@@ -1,8 +1,9 @@
 mixin faqItem(title,text)
-    .faq-item
-        span.faq__title= title
-        .faq__content
-            p.faq__text= text
+    .accordion-item
+        .accordion-item-top
+            span.accordion-title.faq-title= title
+        .accordion-content
+            p.accordion-text= text
 
 .tab-content__item.tab-faq
     .product-faq
